@@ -42,6 +42,7 @@ class KeycloakAuthVerticle : MicroServiceVerticle() {
         ?.onSuccess { user: User ->
           logger.info(logMessage("User authenticated"))
           updateSessionUser(user = user)
+          publishLocalMessage(AUTH_TOKEN_RECEIVED, true)
           refreshTokenPeriodically(
             keycloakConfig = keycloakConfig,
             expiryPeriod = user.principal().getLong(EXPIRES_IN)
@@ -108,7 +109,6 @@ class KeycloakAuthVerticle : MicroServiceVerticle() {
       .put(USER, user)
       .onSuccess { logger.info(logMessage("Session user updated")) }
       .onFailure { vertx.exceptionHandler().handle(it) }
-    publishLocalMessage(AUTH_TOKEN_RECEIVED, true)
   }
 
   override fun logMessage(message: String) = "AUTH: $message"
