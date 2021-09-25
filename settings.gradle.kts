@@ -1,2 +1,2 @@
 rootProject.name = "vertx-microservice"
-include("lib", "sample")
+include("core", "app")

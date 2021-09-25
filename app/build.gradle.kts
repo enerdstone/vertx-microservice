@@ -5,11 +5,11 @@ plugins{
 }
 
 dependencies {
-  implementation(project(":lib"))
+  implementation(project(":core"))
 }
 
 vertx {
   launcher = "io.enerdstone.vertxmicroservice.discovery.AppLauncher"
-  mainVerticle = "io.enerdstone.vertxmicroservice.sample.MainVerticle"
+  mainVerticle = "io.enerdstone.vertxmicroservice.app.MainVerticle"
   debugPort = 6000
 }

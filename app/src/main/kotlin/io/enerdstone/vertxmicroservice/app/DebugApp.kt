@@ -1,4 +1,4 @@
-package io.enerdstone.vertxmicroservice.sample
+package io.enerdstone.vertxmicroservice.app
 
 import io.enerdstone.vertxmicroservice.shared.extension.launchMainVerticle
 import kotlinx.serialization.ExperimentalSerializationApi

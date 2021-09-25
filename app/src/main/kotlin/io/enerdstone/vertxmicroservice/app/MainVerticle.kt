@@ -1,4 +1,4 @@
-package io.enerdstone.vertxmicroservice.sample
+package io.enerdstone.vertxmicroservice.app
 
 import io.enerdstone.vertxmicroservice.auth.keycloak.KeycloakAuthVerticle
 import io.enerdstone.vertxmicroservice.data.embedded.rocksdb.RocksDBVerticle
