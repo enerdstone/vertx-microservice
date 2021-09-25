@@ -3,7 +3,6 @@ package io.enerdstone.vertxmicroservice.sample
 import io.enerdstone.vertxmicroservice.auth.keycloak.KeycloakAuthVerticle
 import io.enerdstone.vertxmicroservice.data.embedded.rocksdb.RocksDBVerticle
 import io.enerdstone.vertxmicroservice.shared.MicroServiceVerticle
-import io.enerdstone.vertxmicroservice.shared.constant.APPLICATION_JSON
 import io.enerdstone.vertxmicroservice.shared.constant.APPLICATION_SHUTDOWN
 import io.enerdstone.vertxmicroservice.shared.constant.AUTH_TOKEN_RECEIVED
 import io.enerdstone.vertxmicroservice.shared.constant.ROCKSDB_FIND
