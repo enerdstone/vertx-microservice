@@ -1,5 +1,6 @@
 package io.enerdstone.vertxmicroservice
 
+import io.enerdstone.vertxmicroservice.sample.MainVerticle
 import io.vertx.core.Vertx
 import io.vertx.junit5.VertxExtension
 import io.vertx.junit5.VertxTestContext
