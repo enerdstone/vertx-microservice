@@ -1,6 +1,5 @@
 package io.enerdstone.vertxmicroservice.shared.domain.model.config
 
-import io.enerdstone.vertxmicroservice.shared.constant.ServiceDiscoveryConfig
 import kotlinx.serialization.Serializable
 
 @Serializable

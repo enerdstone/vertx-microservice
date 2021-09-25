@@ -1,4 +1,4 @@
-package io.enerdstone.vertxmicroservice.shared.constant
+package io.enerdstone.vertxmicroservice.shared.domain.model.config
 
 import kotlinx.serialization.Serializable
 
