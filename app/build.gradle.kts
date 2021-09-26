@@ -9,7 +9,7 @@ dependencies {
 }
 
 vertx {
-  launcher = "io.enerdstone.vertxmicroservice.discovery.AppLauncher"
+  launcher = "io.enerdstone.vertxmicroservice.AppLauncher"
   mainVerticle = "io.enerdstone.vertxmicroservice.app.MainVerticle"
   debugPort = 6000
 }

@@ -3,7 +3,7 @@ package io.enerdstone.vertxmicroservice.shared.extension
 import io.enerdstone.vertxmicroservice.AppLauncher
 import io.vertx.core.Verticle
 
-fun <T : Verticle> launchMainVerticle(clazz: Class<T>, configsFile: String = "conf/service-dev.conf") {
+fun <T : Verticle> launchMainVerticle(clazz: Class<T>, configsFile: String = "conf/application.dev.conf") {
     val projectDir = System.getProperty("user.dir")
     val args = listOf(
         "run", clazz.name,

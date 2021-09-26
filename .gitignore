@@ -185,6 +185,8 @@ build/
 !.vscode/launch.json
 !.vscode/extensions.json
 
-conf/service-prod.conf
-conf/service-dev.conf
+conf/application-prod.conf
+conf/application.prod.conf
+conf/application-dev.conf
+conf/application.dev.conf
 
